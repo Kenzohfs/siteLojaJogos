@@ -4,7 +4,6 @@
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
-    color: rgb(233, 233, 233);
 }
 
 header {
@@ -29,6 +28,10 @@ header {
     margin-left: 20px;
 }
 
+.header_texto {
+    color: rgb(233, 233, 233);
+}
+
 .header_right {
     width: 50%;
     height: 100%;
@@ -42,6 +45,8 @@ header {
 }
 
 .input_bar {
+    text-decoration: none;
+    outline: none;
     width: 90%;
     height: 100%;
 }
