@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -38,6 +34,7 @@ header {
 }
 
 .header_texto:hover {
+    transition: all .4s;
     text-decoration: underline;
     color: #778899;
     cursor: pointer;
@@ -86,9 +83,45 @@ header {
 }
 
 main {
+    margin-top: 10px;
     width: 100%;
-    height: ;
     display: flex;
     justify-content: center;
     background-color: rosybrown;
+}
+
+.banner {
+    display: flex;
+    width: 75%;
+}
+
+.banner_img {
+    height: 100%;
+    width: 85%;
+    border-radius: 12px;
+}
+
+.slides {
+    margin-left: 10px;
+    width: 15%;
+}
+
+.banner_caixa {
+    width: 100%;
+    height: 20%;
+}
+
+.banner_caixa_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.85;
+    border: transparent;
+}
+
+.banner_caixa_img:hover {
+    transition: all .4s;
+    opacity: 1;
+    cursor: pointer;
+    border: 2px solid transparent;
 }
