@@ -181,6 +181,7 @@ header {
 }
 
 .jogo_destaque {
+    display: flex;
     width: 80%;
     height: 20%;
     background-color: rgb(143, 31, 143);
@@ -189,9 +190,26 @@ header {
 .caixa_jogo_destaque {
     width: 40%;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .img_destaque {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+}
+
+.descricao {
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+}
+
+.resumo {
+    margin-bottom: 10px;
+}
+
+.descricao_texto {
+    font-size: 14px;
 }
