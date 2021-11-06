@@ -5,10 +5,9 @@
 }
 
 footer {
-    width: 100%;
-    height: 89px;
+    height: 100px;
     background-color: #2a2a2a;
-    padding: 10px;
+    padding: 8px;
 }
 
 .footer_top {
@@ -50,23 +49,19 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 80%;
 }
 
 .img {
-    height: 100%;
-    height: 100%;
+    margin-right: 10px;
 }
 
 .img:hover {
     cursor: pointer;
 }
 
-.cor_icon_logo {
-    fill: #415c77;
-}
-
 .icon:hover .img {
+    transition: all 0.4s;
     cursor: pointer;
     fill: #34495e !important;
 }
