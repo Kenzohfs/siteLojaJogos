@@ -124,7 +124,7 @@ header {
     text-decoration: underline;
 }
 
-#banner {
+#banner_container {
     margin-top: 10px;
     width: 100%;
     display: flex;
@@ -172,7 +172,7 @@ header {
 }
 
 .banner_caixa_img:hover {
-    transition: all .4s;
+    transition: all .6s;
     opacity: 1;
     cursor: pointer;
     border: 1px solid transparent;
@@ -190,19 +190,41 @@ header {
     align-items: center;
     width: 80%;
     height: 20%;
+    margin: 20px 0px;
+}
+
+.jogo_destaque:hover {
+    transition: all 0.5s;
+    border-radius: 10px;
+    background-color: #444343;
 }
 
 .caixa_jogo_destaque {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     width: 40%;
     height: 100%;
-    display: flex;
-    align-items: center;
+    padding: 20px;
 }
 
 .img_destaque_1 {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    position: relative;
+    border-radius: 13px;
+}
+
+.banner_button_comprar {
+    position: absolute;
+    width: 10%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    background-color: #34495e;
+    color: rgb(179, 178, 178);
+    font-size: 16px;
 }
 
 .descricao {
@@ -224,13 +246,22 @@ header {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 .caixa_jogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 20%;
     padding: 10px;
+    border: 1px solid transparent;
+}
 
+.caixa_jogo:hover {
+    transition: all 0.5s;
+    border-radius: 10px;
+    background-color: #444343;
 }
 
 .img_destaque {
@@ -245,6 +276,41 @@ header {
 ul {
     text-align: center;
     list-style-type: none;
+}
+
+.title_jogo {
+    margin-top: 5%;
+    color: rgb(233, 233, 233);
+    font-size: 20px;
+}
+
+.empresa_jogo {
+    color: rgb(179, 178, 178);
+    font-size: 18px;
+}
+
+.preco_jogo {
+    margin-top: 5%;
+    color: white;
+    font-size: 18px;
+}
+
+.button_comprar {
+    margin-top: 13px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    width: 80%;
+    background-color: #34495e;
+    color: rgb(179, 178, 178);
+    font-size: 16px;
+}
+
+.button_comprar:hover {
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: #4b749e;
+    color: white;
 }
 
 footer iframe {
