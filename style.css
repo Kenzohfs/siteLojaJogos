@@ -235,22 +235,19 @@ header {
 
 .img_destaque {
     width: 100%;
-    height: 100%;
     border-radius: 10px;
     border: 1px solid rgb(179, 178, 178);
 }
 
 .lista {
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 ul {
+    text-align: center;
     list-style-type: none;
 }
 
 footer iframe {
+    height: 100px;
     width: 100%;
-    height: 117px;
 }
