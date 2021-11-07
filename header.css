@@ -89,24 +89,32 @@ header {
     margin-right: 10px;
 }
 
+.cor_lupa {
+    transition: all 0.5s;
+}
+
 .lupa:hover {
     cursor: pointer;
 }
 
 .lupa:hover .cor_lupa {
+    transition: all 0.5s;
     fill: #778899;
 }
 
 .button_login {
     height: 80%;
     padding: 10px;
-    background-color: #336cc9;
+    background-color: #3167be;
     border-radius: 5px;
     border: none;
+    transition: all 0.5s;
 }
 
 .button_login:hover {
+    background-color: #3578e4;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .button_link {
