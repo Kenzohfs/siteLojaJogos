@@ -15,9 +15,17 @@ body {
     background-color: #24292f;
 }
 
+header {
+    height: 10vh;
+}
+
 header iframe {
     width: 100%;
-    height: 65px;
+    height: 10vh;
+}
+
+main {
+    min-height: 70vh;
 }
 
 #banner_container {
@@ -232,7 +240,11 @@ ul {
     color: white;
 }
 
+footer {
+    height: 20vh;
+}
+
 footer iframe {
-    height: 100px;
+    height: 20vh;
     width: 100%;
 }
