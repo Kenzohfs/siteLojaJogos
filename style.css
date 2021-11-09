@@ -29,7 +29,7 @@ main {
 }
 
 #banner_container {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -68,6 +68,7 @@ main {
 }
 
 .banner_caixa_img {
+    transition: all 0.8s;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -76,7 +77,7 @@ main {
 }
 
 .banner_caixa_img:hover {
-    transition: all .6s;
+    transition: all .8s;
     opacity: 1;
     cursor: pointer;
     border: 1px solid transparent;
@@ -87,9 +88,12 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .jogo_destaque {
+    transition: all 0.5s;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     width: 80%;
@@ -125,6 +129,7 @@ main {
 }
 
 .banner_button_comprar {
+    transition: all 0.5s;
     border: none;
     border-radius: 5px;
     padding: 8px 10px;
@@ -141,6 +146,7 @@ main {
 }
 
 .banner_button_desejo {
+    transition: all 0.5s;
     margin-left: 5px;
     border: none;
     border-radius: 5px;
@@ -183,9 +189,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
     width: 20%;
     padding: 10px;
     border: 1px solid transparent;
+    border-radius: 10px;
 }
 
 .caixa_jogo:hover {
@@ -223,6 +232,7 @@ ul {
 }
 
 .button_comprar {
+    transition: all 0.5s;
     margin-top: 13px;
     border: none;
     border-radius: 5px;
